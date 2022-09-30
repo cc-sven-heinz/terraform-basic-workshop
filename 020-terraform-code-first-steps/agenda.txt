@@ -1,0 +1,12 @@
+1.1 Project setup
+  - Wir legen uns ein Projekt an
+  - wir legen uns eine main.tf an mit einem terraform block
+
+
+1.1 In Terraform gibt es
+  - variablen,
+  - locals,
+  - block types ( mit jeweils 2 block labels),
+  - output und
+  - module
+

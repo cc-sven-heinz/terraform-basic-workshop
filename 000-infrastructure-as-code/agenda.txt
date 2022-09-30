@@ -1,0 +1,62 @@
+1. Was ist Infrastructure as Code?
+  1.2 Wozu brauche ich das?
+  1.3 Welches Problem löst es? Gibt es überhaupt ein Problem?
+
+
+Warum ist die manuelle Konfiguration innerhalb der Cloud nicht die beste Wahl?
+
+Was ist das Problem mit der manuellen Konfiguration?
+
+1. Für das ein oder andere Experiment ist es valide manuelle Konfigurationen in der Cloud vorzunehmen
+
+2. Im Projekt Kontext macht es keinen Sinn, der Klick Aufwand ist recht hoch
+
+3. Wir sind Menschen und auch mal machen Fehler
+
+4. Der Überblick für Compliance Anforderungen zu habe ist sehr schwierig, wenn mehrere Leute manuell Konfigurieren
+
+5. Die Wissensweitergabe ist nicht so ideal
+
+
+
+Was ist dann Infrastrucure as Code? Wozu?
+
+1. Du schreibst Scripte, um Cloud Infrastructure automatisch zu Erstellen, zu löschen und zu updaten.
+
+2. IaC ist eine Blaupause für die Cloud Infrastruktur.
+
+3. IaC erlaubt es mir leicht
+
+  eine Bestandsaufnahme meiner Cloud Infrastruktur zu machen,
+
+  meine Cloud Infrastruktur zu teilen oder zu versionieren.
+
+  Versionieren = In einem Repo habe ich unterschiedliche Releases, die ich veröffentlichen kann.
+
+
+
+Deklarativ IaC Tools, die man vielleicht schon gehört hat:
+
+Deklarativ bedeutet hier, was du siehst ist, was du bekommst.
+
+1. Azure Blueprints --> supportet nur Azure
+
+2. Cloud Formation --> supportet nur AWS
+
+3. Cloud Deployment Manager --> supportet nur GCP
+
+4. Terraform --> supportet viele Cloud Provider u. a. Azure, AWS, GCP
+
+
+Imperative IaC Tools
+
+Imperativ bedeutet hier, man beschreibt per Skript oder Programmiersprache, um ein gewünschtes Ergebnis zu haben.
+
+Boilerplate code als dramatische Formulierung.
+
+1. AWS CDK --> supportet nur AWS
+
+2. Pulumi --> supportet Azure, AWS, GCP (https://www.pulumi.com/)
+
+
+

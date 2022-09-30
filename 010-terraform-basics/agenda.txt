@@ -1,0 +1,22 @@
+1. was ist terraform und wozu ist es gut?
+    1.1 Was ist terraform
+    terraform ist ein Open Source Tool von hashicorp.
+    Mit terraform kann man Resourcen innerhalb der Cloud provisionieren.
+
+1.2 Wofür nutzt man terraform
+
+  - Infrastruktur automatisiert bereitstellen, diese
+    - ist versioniert
+    - ist nachvollziehbar
+    - ist reproduzierbar
+
+
+1.3 wie funktioniert terraform
+
+  - Hashicorp AWS SDK - https://github.com/hashicorp/terraform-provider-aws
+
+  - Hashicorp GCP SDK - https://github.com/hashicorp/terraform-provider-google
+
+  - Hashicorp AZURE SDK - https://github.com/hashicorp/terraform-provider-azurerm
+
+  - wie genau das passiert kann man gut mit "export TF_LOG=TRACE" anschauen

@@ -1,0 +1,17 @@
+1. Module
+
+1.1 Verified & official Modules
+  - Module sind verifiziert und offizielle.
+  - heißt hashicorp, kennt, prüft die Module.
+
+1.2 Public Modules
+  - selbst geschriebene Module können hochgeladen werden in die terraform registry
+  - gibt einen Standard beim Name der berücksichtigt werden muss
+     terraform-<provider>-<name>
+  -  ein advanced topic
+
+1.3 Private Modules
+  - im eigenen Unternehmen veröffentlichen
+  - ein advanced topic
+
+

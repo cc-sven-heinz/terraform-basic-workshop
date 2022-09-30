@@ -1,0 +1,14 @@
+1. Abhängigkeiten
+
+1.1 implizite Abhängigkeit - was ist das?
+
+ - bei der direkten Verwendung von resource oder data block types wird eine implizite Abhängigkeit
+   erzeugt.
+ - hilft terraform seinen internen Abhängigkeitsbaum zu erstellen, was muss ich als Erstes
+   erstellen.
+
+
+1.2 explizite Abhänigkeit - was ist das?
+
+  - die Verwendung von depends_on ist das Schlüsselwort für eine explizite Abhängigkeit.
+  - macht es terraform und den Devs einfacher.

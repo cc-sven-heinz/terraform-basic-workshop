@@ -1,0 +1,22 @@
+######################################
+
+Agenda
+
+######################################
+
+
+# Infrastructure as Code
+
+# terraform basics
+
+# terraform hcl
+
+# terraform modules
+
+# terraform refactoring
+
+
+
+Die wichtigste Seite für diesen schönen Morgen:
+
+https://registry.terraform.io/

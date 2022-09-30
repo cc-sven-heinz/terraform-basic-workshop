@@ -1,0 +1,25 @@
+Terraform Provider
+
+1. terraform init
+  1.1 was macht das terraform init?
+     - legt .terraform an
+     - lädt dependencies runter
+     - legt die dependency .terraform.lock.hcl an
+
+2. Provider
+  2.1 Wie Versionen bei Providern festlegen?
+    - version = ">= 4.29" größer gleich 4.29
+    - erlaubt ist "< > = !="
+    - = "~> 1.0.5" stelle ganz recht wird nur hochgezählt also 1.0.6 aber nicht 1.1.0
+
+        3.2.3 terraform fmt
+        3.2.4 terraform validate
+
+Command Chain -
+
+init, fmt, validate, plan, apply, destroy
+
+
+
+
+

@@ -1,0 +1,30 @@
+1. Variablen, Locals, data
+
+1.1 Variablen
+
+  - kann man per commando Zeile übergeben mittels -var ec2_type="t2.mirco"
+  - per TF_VAR_<name> Umgebungsvariable übergeben export TF_VAR_ec2_type=t2.mirco
+  - per default in der tf datei übergeben
+  - per terraform.tfvars file, wird automatisch im root Ordner mitgeladen
+  - senitive Daten, wie z.B. Passwörter, werden in dem
+    terraform.tfstate im Klartext gespeichert - Achtung!!
+
+  - gibt noch mehr aber eher advanced themen.
+
+1.2 Locals
+
+  - nutzt man, wenn man mehrere Stellen hat, die denselben Wert haben
+  - kann man in Verwendung von data abfragen nutzen - performanter
+
+1.3 data
+
+  - erstellt eine Verbindung zu einer existierenden Resource innerhalb eines Providers
+  - kann dann Werte, die gebraucht werden auslesen
+
+1.4 outputs
+  - gibt daten von allem wieder, was vorher definiert wurde
+  - es gibt sensible Werte, wie z. B. Passwörter auch aus
+    kann mittels terraform output -json sichtbar gemacht werden
+  - alle sensiblen Daten wie z. B. Paddwörter werden in der Statefile im Klartext gespeichert.
+
+
