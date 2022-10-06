@@ -27,10 +27,10 @@ resource "aws_instance" "instance-in-eu-central" {
 }
 
 resource "aws_instance" "instance-in-eu-west" {
-  provider = aws.west
+  provider = aws.eu-west
   tags = {
     Name = "My Tag"
   }
-  ami           = "ami-0e2031728ef69a466"
+  ami           = "ami-0ea0f26a6d50850c5"
   instance_type = "t2.micro"
 }
