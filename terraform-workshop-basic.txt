@@ -20,3 +20,6 @@ Agenda
 Die wichtigste Seite für diesen schönen Morgen:
 
 https://registry.terraform.io/
+
+
+https://docs.google.com/document/d/1lm0q2gbOjCCZAE9bfestcZcLGFfxuFooeQeMpN7OfvI/edit
